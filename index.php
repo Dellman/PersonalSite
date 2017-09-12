@@ -65,7 +65,8 @@
 
                 <!-- Cards for projects -->
                 <div class="card">
-                    Project one
+                  <h4>Sweden JavaScript Slideshow</h4>
+                  <p>This was a project I did for fun just to explore some nuisances of JavaScript and experiment with various jQuery plugins. The different sized images made it hard to work with, especially with how many they are, and I hope to make an improved version at some point.</p>
                 </div>
                 <div class="card">
 

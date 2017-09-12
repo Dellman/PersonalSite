@@ -106,13 +106,15 @@ main article section p
   margin-top: 1em;
 }
 .card{
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   background-color: lightgray;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin: 2.5em auto;
 }
-
+.card p{
+  padding: 0 .35em;
+}
 /* Image Styling */
 main article img
 {
