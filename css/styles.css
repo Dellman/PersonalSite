@@ -10,7 +10,7 @@
 nav
 {
   margin: 0 auto;
-  background-color: #9E9E9E;
+  background-color: #a5a5a5;
   position: fixed;
   top: 0;
   width: 100%;
@@ -50,9 +50,9 @@ nav ul li a:hover{
 /* Content Styling */
 body{
   display: block;
-  background-color: #607D8B;
+  background-color: #FFFFFF;
   font-family: "Verdana", "Georgia", "Arial";
-  color: #FFFFFF;
+  color: #000000;
 }
 article{
   padding: 0 10% 2em;
@@ -100,6 +100,19 @@ main article section p
 #project-bottom{
   margin-bottom: 2em;
 }
+
+/*Cards*/
+.card-container{
+  margin-top: 1em;
+}
+.card{
+  height: 250px;
+  width: 250px;
+  background-color: lightgray;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  margin: 2.5em auto;
+}
+
 /* Image Styling */
 main article img
 {

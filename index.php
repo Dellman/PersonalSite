@@ -52,7 +52,7 @@
 
         <article id="projects">
             <!-- <img class="normalPic left" src="" alt=""> -->
-            <img src="images/SmartMeetings.jpg" class="left" alt="Smart Meetings Logo">
+            <!-- <img src="images/SmartMeetings.jpg" class="left" alt="Smart Meetings Logo"> -->
 
             <section>
                 <h2 id="project-bottom">Projects</h2>
@@ -61,9 +61,23 @@
 
                 <p>While at RIT, I worked on a large-scale group project for the company Strategic Interests. Using WordPress, three other students and I created a new website for <a target="_blank" href="http://strategicinterests.com/">Strategic Interests</a>.</p>
 
-                <p>Please visit a list of my <a target="_blank" href="projects.php">recent projects</a>.</p>
+                <!-- <p>Please visit a list of my <a target="_blank" href="projects.php">recent projects</a>.</p> -->
+
+                <!-- Cards for projects -->
+                <div class="card">
+                    Project one
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
             </section>
-            <img src="images/SmartMeetings.jpg" class="mobilePic left" src="" alt="">
+            <!-- <img src="images/SmartMeetings.jpg" class="mobilePic left" src="" alt=""> -->
         </article>
 
         <!-- Contact form https://codepen.io/jaycbrf/pen/iBszr/ -->
