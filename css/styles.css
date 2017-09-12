@@ -104,7 +104,7 @@ main article section p
 /*Cards*/
 
 .card{
-  height: 400px;
+  height: 425px;
   width: 350px;
   background-color: lightgray;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
@@ -151,14 +151,15 @@ main article img
 }
 
 #modalLink{
-  color: #FFFFFF;
+  color: black;
   -webkit-transition: color .3s;
   -o-transition: color .3s;
   transition: color .3s;
 }
 #modalLink:hover{
   cursor: pointer;
-  color: black;
+  /*color: black;*/
+  color: #23527c;
   text-decoration: none;
 }
 #success_message{
