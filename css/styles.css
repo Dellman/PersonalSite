@@ -102,22 +102,23 @@ main article section p
 }
 
 /*Cards*/
-
+/*.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}*/
 .card{
   height: 425px;
   width: 350px;
   background-color: lightgray;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  margin: 1.5em auto;
+  margin: 0 auto .5em;
 }
 .card p{
   padding: 0 .35em;
 }
 .card-link{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  flex-shrink: 2;
-  flex-grow: 1;
 }
 .card h4{
   padding-top: .25em;

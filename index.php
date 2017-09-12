@@ -57,14 +57,7 @@
             <section>
                 <h2 id="project-bottom">Projects</h2>
 
-                <p>My most recent large-scale project was a group project while at Uppsala University. Our website <span class="italicize">Lend and Lease</span> uses AngularJS, NodeJS, and other technologies, creating a website for lending and leasing household items to those in and around the neighborhood. I cannot host it on my site, so please visit the <a target="_blank" href="uploads/LendAndLeaseReport.pdf">cloned repository</a>.</p>
-
-                <p>While at RIT, I worked on a large-scale group project for the company Strategic Interests. Using WordPress, three other students and I created a new website for <a target="_blank" href="http://strategicinterests.com/">Strategic Interests</a>.</p>
-
-                <!-- <p>Please visit a list of my <a target="_blank" href="projects.php">recent projects</a>.</p> -->
-
                 <!-- Cards for projects -->
-
                 <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
                   <h4>Sweden JavaScript Slideshow</h4>
                   <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p>
