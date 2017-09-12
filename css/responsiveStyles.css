@@ -22,6 +22,7 @@
     main article img{
       max-width: 400px;
       max-height: 400px;
+      margin: 0 auto;
     }
     main article section p, main article section h2{
       margin: .5em 0;
