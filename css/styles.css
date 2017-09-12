@@ -102,18 +102,25 @@ main article section p
 }
 
 /*Cards*/
-.card-container{
-  margin-top: 1em;
-}
+
 .card{
-  height: 350px;
+  height: 400px;
   width: 350px;
   background-color: lightgray;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  margin: 2.5em auto;
+  margin: 1.5em auto;
 }
 .card p{
   padding: 0 .35em;
+}
+.card-link{
+  margin: 0;
+  padding: 0;
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+.card h4{
+  padding-top: .25em;
 }
 /* Image Styling */
 main article img

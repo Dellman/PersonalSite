@@ -64,19 +64,24 @@
                 <!-- <p>Please visit a list of my <a target="_blank" href="projects.php">recent projects</a>.</p> -->
 
                 <!-- Cards for projects -->
-                <div class="card">
+
+                <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
                   <h4>Sweden JavaScript Slideshow</h4>
                   <p>This was a project I did for fun just to explore some nuisances of JavaScript and experiment with various jQuery plugins. The different sized images made it hard to work with, especially with how many they are, and I hope to make an improved version at some point.</p>
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
+                </div></a>
+                <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
+                    <h4>Lend and Lease</h4>
+                    <p>This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.JS with Passport for sessions and authentication, and Express to connect to our MySQL database.
+                    </p>
+                </div></a>
+                <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
+                    <h4></h4>
+                    <p></p>
+                </div></a>
+                <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
+                    <h4></h4>
+                    <p></p>
+                </div></a>
             </section>
             <!-- <img src="images/SmartMeetings.jpg" class="mobilePic left" src="" alt=""> -->
         </article>
