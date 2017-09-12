@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1 | Daniel Ellman</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="scripts/cookies.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script>
+        // Add the first name to the input field
+        function formData(){
+            if(window.localStorage){
+                var storedFName = localStorage.getItem("fName");
+            }
+            else{
+                var storedFName = GetCookie("fn");
+            }
+            var formFN = document.getElementById("fName");
+            formFN.value = storedFName;
+        }
+        // Use the previously stored first name and store the last name
+        function formSubmit(){
+            var formFN = document.getElementById("fName");
+            var lsFName = localStorage.getItem("fName");
+            var formLN = document.getElementById("lName");
+            localStorage.setItem("lName", formLN.value);
+            SetCookie("ln", formLN.value);
+            SetCookie("fn", formFN.value);
+            // If there are values for both first and last name,
+            //redirect to result page
+            if( formFN.value.length == 0 || formFN.value == null){
+                window.alert("Please enter your first name.");
+            }
+            else if( formLN.value.length == 0 || formLN.value == null){
+                window.alert("Please enter your last name.");
+            }
+            else
+            {
+                document.location = "resultPage.html";
+            }
+        }
+    </script>
+</head>
+
+<!-- When the page loads, call the firstForm function and animate it in -->
+<body onload="browserCheck(); makeFirstDropdown(); moveIn('firstDropdown'); fadeIn('imageLocation'); useStoredData(); moveIn('welcome'); loadAllImages(heroesArray.heroes); formData();">
+        <div id="resetStoredValuesDiv">
+            <button onclick="resetStoredValues();">
+                Reset Data
+            </button>
+        </div>
+        <div id="mail">
+            <button onclick="sendEmail(selectedValue3);">
+                Send your result!
+            </button>
+        </div>
+        <div id="firstDropdown" onchange="getValue1(); makeSecondDropdown(selectedValue1); moveIn('secondDropdown'); removeAllImages(heroesArray.heroes); loadAllImages(heroesArray.heroes); returnResult(selectedValue1, selectedValue2, selectedValue3);">
+        </div>
+
+        <div id="secondDropdown" onchange="getValue2(); resetValue3(); makeThirdDropdown(selectedValue1, selectedValue2, heroesArray.heroes); moveIn('thirdDropdown'); loadAllImages(heroesArray.heroes); removeAllImages(heroesArray.heroes); addImages(heroesArray.heroes, selectedValue1, selectedValue2, selectedValue3); returnResult(selectedValue1, selectedValue2, selectedValue3);">
+        </div>
+
+        <div id="thirdDropdown" onchange="getValue3(); returnResult(selectedValue1, selectedValue2, selectedValue3); moveIn('result'); addImages(heroesArray.heroes, selectedValue1, selectedValue2, selectedValue3); moveIn('form');">
+        </div>
+
+        <div id="welcome">
+
+        </div>
+
+        <div id="result">
+
+        </div>
+
+        <div id="imageLocation">
+
+        </div>
+
+        <div id="form">
+            <form action="">
+            <h3>Thanks for visiting!</h3>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" value="">
+                <br>
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" value="">
+                <br>
+                <button type="button" onclick="formSubmit();">
+                    Submit
+                </button>
+            </form>
+        </div>
+</body>
+</html>

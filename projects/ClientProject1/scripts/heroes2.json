@@ -1,0 +1,135 @@
+{"heroes":[
+
+        {"name": "Ana",
+        "difficulty": "hard",
+        "role":"support",
+        "picture":"images/ana.png",
+        "link":"https://playoverwatch.com/en-us/heroes/ana/"},
+
+        {"name": "Bastion",
+        "difficulty": "easy",
+        "role":"defense",
+        "picture":"images/bastion.png",
+        "link":"https://playoverwatch.com/en-us/heroes/bastion/"},
+
+        {"name": "D.Va",
+        "difficulty": "medium",
+        "role":"tank",
+        "picture":"images/dva.png",
+        "link":"https://playoverwatch.com/en-us/heroes/dva/"},
+
+        {"name": "Genji",
+        "difficulty": "hard",
+        "role":"offense",
+        "picture":"images/genji.png",
+        "link":"https://playoverwatch.com/en-us/heroes/genji"},
+
+        {"name": "Hanzo",
+        "difficulty": "medium",
+        "role":"defense",
+        "picture":"images/hanzo.png",
+        "link":"https://playoverwatch.com/en-us/heroes/hanzo/"},
+
+        {"name": "Junkrat",
+        "difficulty": "medium",
+        "role":"defense",
+        "picture":"images/junkrat.png",
+        "link":"https://playoverwatch.com/en-us/heroes/junkrat/"},
+
+        {"name": "Lúcio",
+        "difficulty": "medium",
+        "role":"support",
+        "picture":"images/lucio.png",
+        "link":"https://playoverwatch.com/en-us/heroes/lucio/"},
+
+        {"name": "McCree",
+        "difficulty": "medium",
+        "role":"offense",
+        "picture":"images/mccree.png",
+        "link":"https://playoverwatch.com/en-us/heroes/mccree/"},
+
+        {"name": "Mei",
+        "difficulty": "hard",
+        "role":"defense",
+        "picture":"images/mei.png",
+        "link":"https://playoverwatch.com/en-us/heroes/mei/"},
+
+        {"name": "Mercy",
+        "difficulty": "easy",
+        "role":"support",
+        "picture":"images/mercy.png",
+        "link":"https://playoverwatch.com/en-us/heroes/mercy/"},
+
+        {"name": "Pharah",
+        "difficulty": "easy",
+        "role":"offense",
+        "picture":"images/pharah.png",
+        "link":"https://playoverwatch.com/en-us/heroes/pharah/"},
+
+        {"name": "Reaper",
+        "difficulty": "easy",
+        "role":"offense",
+        "picture":"images/reaper.png",
+        "link":"https://playoverwatch.com/en-us/heroes/reaper"},
+    
+        {"name": "Reinhardt",
+        "difficulty": "easy",
+        "role":"tank",
+        "picture":"images/reinhardt.png",
+        "link":"https://playoverwatch.com/en-us/heroes/reinhardt/"},
+
+        {"name": "Roadhog",
+        "difficulty": "easy",
+        "role":"tank",
+        "picture":"images/roadhog.png",
+        "link":"https://playoverwatch.com/en-us/heroes/roadhog/"},
+
+        {"name": "Soldier 76",
+        "difficulty": "easy",
+        "role":"offense",
+        "picture":"images/soldier.png",
+        "link":"https://playoverwatch.com/en-us/heroes/soldier-76/"},
+
+        {"name": "Symmetra",
+        "difficulty": "medium",
+        "role":"support",
+        "picture":"images/symmetra.png",
+        "link":"https://playoverwatch.com/en-us/heroes/symmetra/"},
+    
+        {"name": "Torbjörn",
+        "difficulty": "medium",
+        "role":"defense",
+        "picture":"images/torbjorn.png",
+        "link":"https://playoverwatch.com/en-us/heroes/torbjorn/"},
+    
+        {"name": "Tracer",
+        "difficulty": "medium",
+        "role":"offense",
+        "picture":"images/tracer.png",
+        "link":"https://playoverwatch.com/en-us/heroes/tracer/"},
+
+        {"name": "Widowmaker",
+        "difficulty": "medium",
+        "role":"defense",
+        "picture":"images/widowmaker.png",
+        "link":"https://playoverwatch.com/en-us/heroes/widowmaker/"},
+    
+        {"name": "Winston",
+        "difficulty": "medium",
+        "role":"tank",
+        "picture":"images/winston.png",
+        "link":"https://playoverwatch.com/en-us/heroesw/inston/"},
+
+        {"name": "Zarya",
+        "difficulty": "hard",
+        "role":"tank",
+        "picture":"images/zarya.png",
+        "link":"https://playoverwatch.com/en-us/heroes/zarya/"},
+
+        {"name": "Zenyatta",
+        "difficulty": "hard",
+        "role":"support",
+        "picture":"images/zenyatta.png",
+        "link":"https://playoverwatch.com/en-us/heroes/zenyatta/"}
+    ]
+}

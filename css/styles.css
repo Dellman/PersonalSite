@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  font-size: 1.05em;
+  /*font-family: Arial;*/
+  /*overflow-x: hidden;*/
+  padding: 0;
+}
+
+/* Nav Styling */
+nav
+{
+  margin: 0 auto;
+  background-color: #9E9E9E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+nav ul
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+nav ul li{
+  padding: .5em;
+  list-style: none;
+  font-size: 1.1em;
+}
+nav ul li a{
+  color: #212121;
+  text-decoration: none;
+  font-size: 1em;
+}
+a{
+  color: #212121;
+}
+nav ul li a:focus{
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
+
+.active, nav ul li a:hover{
+  color:  #23527c;
+}
+
+/* Content Styling */
+body{
+  display: block;
+  background-color: #607D8B;
+  font-family: "Verdana", "Georgia", "Arial";
+  color: #FFFFFF;
+}
+article{
+  padding: 0 10% 2em;
+  width: 100%;
+}
+main
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+main h1, main h2
+{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+main h1{
+  margin-bottom: 1em;
+}
+
+main article section h2{
+  margin: 0;
+  text-align: left;
+}
+
+main article
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+main article section
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+  flex-grow: 1;
+  width: 50%;
+}
+main article section p
+{
+  margin: 0;
+}
+#project-bottom{
+  margin-bottom: 2em;
+}
+/* Image Styling */
+main article img
+{
+  max-width: 450px;
+  max-height: 450px;
+  padding: 1em;
+  margin: 0 auto;
+  opacity: 0;
+  position: relative;
+}
+.mobilePic{
+  display: none;
+  margin: 0 auto;
+}
+/* Bootstrap Modal Styling */
+.modal-content{
+  color: #212121;
+  display: block;
+  margin: 0 auto;
+  padding: .75em;
+}
+.modal-content h1, h2, h3, h4{
+  text-align: center;
+}
+.italicize{
+  font-style: italic;
+}
+
+#modalLink{
+  color: #FFFFFF;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+#modalLink:hover{
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+#success_message{
+  display: none;
+}
+footer{
+  margin: 1em auto;
+  text-align: center;
+}
+
+.back{
+  font-size: 1.5em;
+  color: #FFFFFF;
+  margin-left: 1em;
+}
+div label{
+  color: black;
+}
+/*Image distances*/
+.right{
+  left: 4em;
+}
+.left{
+  left: -4em;
+}
+
+/*Underline CSS code from: http://bradsknutson.com/blog/css-sliding-underline/*/
+
+nav ul li a::after
+{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0px;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+nav ul li a:hover::after
+{
+  width: 100%;
+  background: #23527c;
+}
+#gotcha{
+  display: none;
+}
+/*End of http://bradsknutson.com/blog/css-sliding-underline/*/
