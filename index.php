@@ -36,7 +36,7 @@
 
                 <p>In addition to studying at RIT, I spent a summer studying at George Mason University (Washington, D.C.) and a semester at Uppsala University (Uppsala, Sweden).</p>
             </section>
-            <img class="mobilePic left" src="images/RITLogo.png" alt="">
+            <img class="mobilePic right" src="images/RITLogo.png" alt="">
         </article>
 
         <article id="work">
