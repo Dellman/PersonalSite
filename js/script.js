@@ -1,5 +1,4 @@
 $(document).ready(function($) {
-
     // http://callmenick.com/post/single-page-site-with-smooth-scrolling-highlighted-link-and-fixed-navigation
     // Some customizations added
     var aChildren = $("nav li").children(); // find the a children of the list items
@@ -76,12 +75,14 @@ $(document).ready(function($) {
         var id = hashID.slice(1);
         var $articleEle = $(document.getElementById(id));
         var $img1 = $($articleEle.find('img')[0]);
-        var $img2 = $($articleEle.find('img')[1]);
+        // var $img2 = $($articleEle.find('img')[1]);
         var $docWidth  = $(document).width();
         animateImages($img1);
         // If there is a "hidden" mobile picture, animate that as well
         if ($docWidth < 1100){
-            animateImages($img2);
+            // animateImages($img2);
+            let pic = $(document.getElementById("RIT"));
+            pic.appendTo('#education');
         }
     }
 

@@ -28,7 +28,7 @@
         </article>
 
         <article id="education">
-            <img class="normalPic left" src="images/RITLogo.png" alt="">
+            <img class="left" id="RIT" src="images/RITLogo.png" alt="RIT Logo">
             <section>
                 <h2>Education</h2>
 
@@ -36,7 +36,7 @@
 
                 <p>In addition to studying at RIT, I spent a summer studying at George Mason University (Washington, D.C.) and a semester at Uppsala University (Uppsala, Sweden).</p>
             </section>
-            <img class="mobilePic right" src="images/RITLogo.png" alt="">
+            <!-- <img class="mobilePic right" src="images/RITLogo.png" alt=""> -->
         </article>
 
         <article id="work">
@@ -51,8 +51,6 @@
         </article>
 
         <article id="projects">
-            <!-- <img class="normalPic left" src="" alt=""> -->
-            <!-- <img src="images/SmartMeetings.jpg" class="left" alt="Smart Meetings Logo"> -->
 
             <section>
                 <h2 id="project-bottom">Projects</h2>
