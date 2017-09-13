@@ -47,7 +47,7 @@
 
                 <p>Another job was during the summer of 2015 at Smart Media, a company that focuses on political advertisements. While there, I helped them improve the accuracy of their competitive software. I also helped ensure their clients paid the appropriate rates by doing market research and comparative analysis of database information.</p>
             </section>
-            <img src="images/SmartMeetings.jpg" class="right" alt="Smart Meetings Logo">
+            <!-- <img src="" class="right" alt="Work Image"> -->
         </article>
 
         <article id="projects">
