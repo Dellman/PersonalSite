@@ -58,7 +58,7 @@
                 <h2 id="project-bottom">Projects</h2>
 
                 <!-- Cards for projects -->
-                <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
+                <a class="card-link" href="projects/SwedenFullPHP/" target="_blank"><div class="card">
                   <h4>Sweden JavaScript Slideshow</h4>
                   <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p>
                 </div></a>
