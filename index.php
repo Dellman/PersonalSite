@@ -18,11 +18,11 @@
             <section>
                 <h2>About Me</h2>
 
-                <p>Hello, my name is Daniel Ellman and I am from Columbus, OH. I am a recent graduate of the Rochester Institute of Technology. My major focused on Web Development and Online Marketing. If you have any interest in my experience, please look at my <a target="blank" href="uploads/DEllmanResume.pdf">resume</a>.</p>
+                <p>Hello, my name is Daniel Ellman and I am from Columbus, OH. I am a recent graduate of the Rochester Institute of Technology. My major focused on Web Development and Online Marketing. If you have any interest in my experience, please look at my <a target="blank" href="uploads/DanielEllmanResume.pdf">resume</a>.</p>
 
                 <p>My focus is on Front End Development, which means I focus on what the user sees, and how they interact with the website. I know HTML5, CSS3, jQuery, and JavaScript.</p>
-                
-                <p>My favorite things to do are read, hang out with friends, play games (board, video, and card), listen to music, and bake. I also enjoy light traveling and reading and learning about new technologies.</p>
+
+                <p>My favorite things to do are read, hang out with friends, play games (board, video, and card), listen to music, and bake. I also enjoy light traveling and reading and learning about new technologies. Recently I have been learning React and exploring ES6.</p>
             </section>
 
             <img class="right" src="images/AboutPicture.jpg" alt="Picture of me">
