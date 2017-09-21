@@ -60,7 +60,7 @@
       max-width: 300px;
     }
     nav ul li{
-      padding: 0;
+      padding: .25em;
     }
     main h1{
       margin: 0 0 .25em;
@@ -69,11 +69,21 @@
     main{
       margin-top: 4em;
     }
+    #icon{
+      display: none;
+    }
 }
 
 @media only screen and (max-width: 380px){
     main article img{
       max-height: 250px;
       max-width: 250px;
+    }
+    nav ul li{
+        padding: .15em;
+    }
+    .card{
+        width:250px;
+        height: 500px;
     }
 }

@@ -3,6 +3,7 @@ $(document).ready(function($) {
     // Some customizations added
     var aChildren = $("nav li").children(); // find the a children of the list items
     var aArray = []; // create the empty aArray
+    // Loop through all of the nav items except for the icon
     for (var i=0; i < aChildren.length; i++) {
         var aChild = aChildren[i];
         var ahref = $(aChild).attr('href');

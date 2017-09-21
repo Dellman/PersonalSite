@@ -3,12 +3,14 @@
 ?>
 
     <nav id="navBar">
+        <!-- <img id="icon" src="images/favicon.png"> -->
          <ul id="navList">
-             <li><a href="#about">About Me</a></li>
+             <img id="icon" src="images/favicon.png">
+            <ul> <li><a href="#about">About Me</a></li>
              <li><a href="#education">Education</a></li>
              <li><a href="#work">Work</a></li>
              <li><a href="#projects">Projects</a></li>
-             <li><a href="#contact">Contact</a></li>
+             <li><a href="#contact">Contact</a></li></ul>
         </ul>
     </nav>
 

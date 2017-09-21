@@ -15,6 +15,7 @@ nav ul
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 0;
+  padding: 0;
 }
 nav ul li{
   padding: .5em;
