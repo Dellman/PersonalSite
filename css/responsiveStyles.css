@@ -41,6 +41,7 @@
     }
     main article section p, main article section h2{
       margin: 0;
+      margin-bottom: .25em;
     }
     main article section p{
         margin-bottom: 1em;
