@@ -61,21 +61,36 @@
 
                 <!-- Cards for projects -->
                 <a class="card-link" href="projects/SwedenFullPHP/" target="_blank"><div class="card">
-                  <h4>Sweden JavaScript Slideshow</h4>
-                  <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p>
+                    <div class="card-front">
+                        <img src="images/SlideshowCard.png" alt="Sweden Slideshow Page">
+                    </div>
+                  <div class="card-back"><h4>Sweden JavaScript Slideshow</h4>
+                  <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p></div>
                 </div></a>
                 <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank"><div class="card">
-                    <h4>Lend and Lease</h4>
+                    <div class="card-front">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card-back">    <h4>Lend and Lease</h4>
                     <p>This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.JS with Passport for sessions and authentication, and Express to connect to our MySQL database.
-                    </p>
+                    </p></div>
                 </div></a>
                 <a class="card-link" href="projects/ClientProject1/index.html" target="_blank"><div class="card">
-                    <h4>Dynamic JavaScript Project (2016)</h4>
-                    <p>Using pure JavaScript, I created a website to browse characters from the game Overwatch. They can be sorted by role and difficulty, and clicking on a character will take the user to the character's official page. All of the information is stored in a JSON file. All images, select menus, options, and some text are dynamically created. Lastly, this project uses cookies and local storage and gives suggestions of modern browsers to those using older browsers.</p>
+                    <div class="card-front">
+                        <img src="images/Project1Card2.png" alt="Dynamic JavaScript Page">
+                    </div>
+                    <div class="card-back"><h4>Dynamic JavaScript Project (2016)</h4>
+                    <p>Using pure JavaScript, I created a website to browse characters from the game Overwatch. They can be sorted by role and difficulty, and clicking on a character will take the user to the character's official page. All of the information is stored in a JSON file. All images, select menus, options, and some text are dynamically created. Lastly, this project uses cookies and local storage and gives suggestions of modern browsers to those using older browsers.</p></div>
                 </div></a>
                 <a class="card-link" href="http://strategicinterests.com/" target="_blank"><div class="card">
-                    <h4>Strategic Interests (2015)</h4>
-                    <p>This website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
+                    <div class="card-front">
+                        <img src="images/StrategicInterestsCard.png" alt="Stragic Interests Page">
+                    </div>
+                    <div class="card-back">
+                        <h4>Strategic Interests (2015)</h4>
+                        <p>This website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
+                    </div>
+
                 </div></a>
             </section>
             <!-- <img src="images/SmartMeetings.jpg" class="mobilePic left" src="" alt=""> -->
