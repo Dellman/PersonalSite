@@ -102,9 +102,9 @@ main article section p
   height: 400px;
   background-color: lightgray;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  /*margin: .5em .5em;
+  margin: .75em .5em;
   background-size: 100%;
-  background-repeat: no-repeat;*/
+  /*background-repeat: no-repeat;*/
 }
 .card p{
   padding: 0 .35em;
@@ -118,17 +118,19 @@ main article section p
 }
 .card-front img{
   opacity: 1;
-  /*background-size: cover;*/
   overflow: hidden;
 }
 #slideShowBG{
-  background-image: url('../images/SlideshowCard2.png');
+  background-image: url('../images/SlideshowCard.png');
 }
 #project1BG{
   background-image: url('../images/Project1Card.png');
 }
-#StrategicInterestsBG{
-  background-image: url('../images/StrategicInterestsCard2.png');
+#strategicInterestsBG{
+  background-image: url('../images/StrategicInterestsCard.png');
+}
+#lendAndLeaseBG{
+  background-image: url('../images/LendAndLeaseCard.png');
 }
 .card-back{
   display: none;
