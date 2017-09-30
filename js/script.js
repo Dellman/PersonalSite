@@ -92,7 +92,8 @@ $(document).ready(function($) {
     function animateImages(img){
         img.animate({
             left: "0px",
-            opacity: 1
+            opacity: 1,
+            filter: 'alpha(opacity=50)'
         }, 750);
     }
 
