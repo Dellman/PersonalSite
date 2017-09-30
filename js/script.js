@@ -73,17 +73,19 @@ $(document).ready(function($) {
     });
 
     function getArticleImages(hashID){
+
         var id = hashID.slice(1);
         var $articleEle = $(document.getElementById(id));
-        var $img1 = $($articleEle.find('img')[0]);
-        // var $img2 = $($articleEle.find('img')[1]);
+        var $img = $($articleEle.find('img')[0]);
+        if ($img.hasClass("right") || $img.hasClass('left')) {
+            animateImages($img);
+        }
         var $docWidth  = $(document).width();
-        animateImages($img1);
         // If there is a "hidden" mobile picture, animate that as well
         if ($docWidth < 1100){
             // animateImages($img2);
-            let pic = $(document.getElementById("RIT"));
-            pic.appendTo('#education');
+            var $pic = $(document.getElementById("RIT"));
+            $pic.appendTo('#education');
         }
     }
 
