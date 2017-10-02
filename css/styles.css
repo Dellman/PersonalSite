@@ -66,12 +66,12 @@ main
 main h1, main h2
 {
   display: block;
-  text-align: center;
   width: 100%;
 }
 
 main h1{
   margin-bottom: 1em;
+  text-align: center;
 }
 
 main article section h2{
@@ -97,7 +97,7 @@ main article section p
   margin: 0;
 }
 #project-bottom{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 /* Image Styling */
