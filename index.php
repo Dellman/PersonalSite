@@ -74,7 +74,7 @@
                     </div>
 
                     <div class="card">
-                        <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank">
+                        <a class="card-link" href="https://github.com/Dellman/Lend-and-Lease-Clone.git" target="_blank">
                             <div class="card-front">
                                 <img style="max-width: 600px; height:250px;" src="images/LendAndLeaseCard.png" alt="Lend and Lease Homepage">
                                 <div class="card-text"><h4>Lend and Lease</h4>
