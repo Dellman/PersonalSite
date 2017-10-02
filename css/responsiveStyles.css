@@ -1,4 +1,9 @@
 /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 1383px){
+    .card-container{
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 1100px){
     .mobilePic{
       display: block;
@@ -60,8 +65,8 @@
       max-width: 300px;
     }
     .card-front img{
-      max-width: 400px !important;
-      max-height: 400px;
+      max-width: 350px !important;
+      max-height: 350px;
     }
     .card{
         margin: .5em auto;
@@ -89,7 +94,11 @@
         display: inline;
     }
 }
-
+@media only screen and (max-width: 425px){
+    .card-front img{
+      max-width: 300px !important;
+    }
+}
 @media only screen and (max-width: 380px){
     main article img{
       max-height: 250px;
@@ -101,5 +110,9 @@
     }
     nav ul li{
         padding: .15em;
+    }
+    main h1{
+        padding: 0 .25em;
+        margin-bottom: .25em;
     }
 }

@@ -85,6 +85,8 @@ $(document).ready(function($) {
         if ($docWidth < 1100){
             // animateImages($img2);
             var $pic = $(document.getElementById("RIT"));
+            $pic.removeClass('left');
+            $pic.addClass('right');
             $pic.appendTo('#education');
         }
     }

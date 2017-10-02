@@ -1,3 +1,7 @@
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
 /* Nav Styling */
 nav
 {
@@ -150,6 +154,7 @@ main article img
   transition: opacity .35s;
   margin: .75em;
   padding: 0 .5em;
+  text-align: left;
 }
 .text-depth{
   display: block;
