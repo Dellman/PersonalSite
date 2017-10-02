@@ -78,7 +78,7 @@
                             <img src="images/Project1Card.png" alt="Client Project 1">
                             <div class="card-text"><h4>Dynamic JavaScript Project</h4>
                             <p class="text-depth">This is a project from senior year of college which required students to create a website using plain JavaScript. This project was based off of one of my favorite games, Overwatch, and allows the user to select their ideal character. In addition to plain JavaScript, this project uses local storage, cookies, and JSON.</p>
-                            <p class="text-brief">This project focuses on using plain JavaScript, cookies, local storage, and JSON to create a dynamic site. </p></div>
+                            <p class="text-brief">This project focuses on using plain JavaScript, cookies, local storage, and JSON to create a dynamic site.</p></div>
                         </div>
                         </a>
                     </div>
@@ -88,8 +88,9 @@
                             <div class="card-front">
                                 <img style="max-width: 600px; height:250px;" src="images/LendAndLeaseCard.png" alt="Lend and Lease Homepage">
                                 <div class="card-text"><h4>Lend and Lease</h4>
-                                <p>This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.JS with Passport for sessions and authentication, and Express to connect to our MySQL database.
-                                </p></div>
+                                <p class="text-depth">This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.Js with Passport for sessions and authentication, and Express to connect to our MySQL database.
+                                </p>
+                                <p class="text-brief">This was a group project that worked towards allowing users to lend items to people in their neighborhood. We used Node.Js, Passport, Express, and MySQL.</p></div>
                             </div>
                             </a>
                     </div>
@@ -99,8 +100,9 @@
                         <div class="card-front">
                             <img src="images/StrategicInterestsCard.png" alt="Stragic Interests Page">
                             <div class="card-text">
-                                <h4>Strategic Interests (2015)</h4>
-                                <p>This website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
+                                <h4>Strategic Interests</h4>
+                                <p class="text-depth">This website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
+                                <p class="text-brief">This was a group project made using the Divi WordPress theme. We modernized and optimized the website. Most of our changes are still on their current website.</p>
                             </div>
                         </div>
                         </a>

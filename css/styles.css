@@ -127,13 +127,6 @@ main article img
   display: inline-block;
   margin: .75em;
 }
-.card-text p{
-  padding: 0 .35em;
-}
-
-.card h4{
-  padding-top: .25em;
-}
 .card-front img{
   opacity: 1;
   overflow: hidden;
@@ -156,6 +149,7 @@ main article img
   top: 0;
   transition: opacity .35s;
   margin: .75em;
+  padding: 0 .5em;
 }
 .text-depth{
   display: block;
