@@ -113,12 +113,6 @@ main article img
 
 /*Cards*/
 .card-container{
-  /*display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;*/
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -127,16 +121,10 @@ main article img
   margin: 0 auto;
   padding: 0;
   display: inline-block;
-  /*height: 0;*/
 }
 .card{
   position: relative;
-  /*-webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  justify-content: space-around;*/
   display: inline-block;
-  /*background-size: 100%;*/
   margin: .75em;
 }
 .card-text p{
@@ -165,11 +153,15 @@ main article img
 .card-text{
   opacity: 0;
   position: absolute;
-  /*bottom: 225px;*/
-  /*bottom: 0;*/
   top: 0;
   transition: opacity .35s;
   margin: .75em;
+}
+.text-depth{
+  display: block;
+}
+.text-brief{
+  display: none;
 }
 
 /* Bootstrap Modal Styling */

@@ -77,7 +77,8 @@
                         <div class="card-front">
                             <img src="images/Project1Card.png" alt="Client Project 1">
                             <div class="card-text"><h4>Dynamic JavaScript Project</h4>
-                            <p>This is a project from senior year of college which required students to create a website using plain JavaScript. This project was based off of one of my favorite games, Overwatch, and allows the user to select their ideal character. In addition to plain JavaScript, this project uses local storage, cookies, and JSON.</p></div>
+                            <p class="text-depth">This is a project from senior year of college which required students to create a website using plain JavaScript. This project was based off of one of my favorite games, Overwatch, and allows the user to select their ideal character. In addition to plain JavaScript, this project uses local storage, cookies, and JSON.</p>
+                            <p class="text-brief">This project focuses on using plain JavaScript, cookies, local storage, and JSON to create a dynamic site. </p></div>
                         </div>
                         </a>
                     </div>
