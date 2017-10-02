@@ -113,35 +113,36 @@ main article img
 
 /*Cards*/
 .card-container{
-  display: -webkit-flex;
+  /*display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
+  display: inline-block;
   width: 100%;
-}
-.card{
-  position: relative;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-size: 100%;
-  margin: .5em;
-}
-.card-front img{
-  padding: 0;
-  margin: 0;
-}
-.card-text p{
-  padding: 0 .35em;
+  height: 100%;
 }
 .card-link{
   margin: 0 auto;
   padding: 0;
-  display: flex;
+  display: inline-block;
+  /*height: 0;*/
 }
+.card{
+  position: relative;
+  /*-webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;*/
+  display: inline-block;
+  /*background-size: 100%;*/
+  margin: .75em;
+}
+.card-text p{
+  padding: 0 .35em;
+}
+
 .card h4{
   padding-top: .25em;
 }
@@ -149,6 +150,8 @@ main article img
   opacity: 1;
   overflow: hidden;
   transition: opacity .35s;
+  padding: 0;
+  margin: 0;
 }
 .card:hover .card-front img{
   opacity: .25;
@@ -159,12 +162,14 @@ main article img
   opacity: 1;
   color: black;
 }
-
 .card-text{
   opacity: 0;
   position: absolute;
-  bottom: 225px;
+  /*bottom: 225px;*/
+  /*bottom: 0;*/
+  top: 0;
   transition: opacity .35s;
+  margin: .75em;
 }
 
 /* Bootstrap Modal Styling */

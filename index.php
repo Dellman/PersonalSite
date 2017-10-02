@@ -82,16 +82,16 @@
                         </a>
                     </div>
 
-                    <!-- <div class="card">
+                    <div class="card">
                         <a class="card-link" href="https://github.com/Dellman/lendandlease.app.git" target="_blank">
                             <div class="card-front">
-                                <img src="LendandLeaseCard.png" alt="Lend and Lease Homepage">
+                                <img style="max-width: 600px; height:250px;" src="images/LendAndLeaseCard.png" alt="Lend and Lease Homepage">
                                 <div class="card-text"><h4>Lend and Lease</h4>
                                 <p>This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.JS with Passport for sessions and authentication, and Express to connect to our MySQL database.
                                 </p></div>
                             </div>
                             </a>
-                    </div> -->
+                    </div>
 
                     <div class="card">
                     <a class="card-link" href="http://strategicinterests.com/" target="_blank">
@@ -105,7 +105,7 @@
                         </a>
                     </div>
 
-                </div>
+                </div><!-- Card section closing div -->
 
 
             </section>
