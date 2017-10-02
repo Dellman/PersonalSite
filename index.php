@@ -62,7 +62,7 @@
                 <!-- Cards for projects -->
                 <div class="card-container">
 
-                    <div class="card">
+                    <!-- <div class="card">
                         <a class="card-link" href="projects/SwedenFullPHP/" target="_blank">
                         <div class="card-front">
                             <img src="images/SlideshowCard.png" alt="Sweden Slideshow Page">
@@ -70,14 +70,14 @@
                             <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p></div>
                         </div>
                         </a>
-                    </div>
+                    </div> -->
 
                     <div class="card">
                         <a class="card-link" href="projects/ClientProject1/" target="_blank">
                         <div class="card-front">
                             <img src="images/Project1Card.png" alt="Client Project 1">
-                            <div class="card-text"><h4>Sweden JavaScript Slideshow</h4>
-                            <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p></div>
+                            <div class="card-text"><h4>Dynamic JavaScript Project</h4>
+                            <p>This is a project from senior year of college which required students to create a website using plain JavaScript. This project was based off of one of my favorite games, Overwatch, and allows the user to select their ideal character. In addition to plain JavaScript, this project uses local storage, cookies, and JSON.</p></div>
                         </div>
                         </a>
                     </div>
