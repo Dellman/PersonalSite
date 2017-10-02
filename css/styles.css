@@ -40,11 +40,9 @@ nav ul li a:focus{
 nav ul li a:hover{
   text-decoration: none;
 }
-
 .active, nav ul li a:hover{
   color:  #23527c;
 }
-
 /* Content Styling */
 body{
   display: block;
@@ -68,17 +66,14 @@ main h1, main h2
   display: block;
   width: 100%;
 }
-
 main h1{
   margin-bottom: 1em;
   text-align: center;
 }
-
 main article section h2{
   margin: 0;
   text-align: left;
 }
-
 main article
 {
   display: flex;
@@ -99,7 +94,6 @@ main article section p
 #project-bottom{
   margin-bottom: 1em;
 }
-
 /* Image Styling */
 main article img
 {
@@ -114,7 +108,6 @@ main article img
   display: none;
   margin: 0 auto;
 }
-
 /*Cards*/
 .card-container{
   display: inline-block;
@@ -162,7 +155,6 @@ main article img
 .text-brief{
   display: none;
 }
-
 /* Bootstrap Modal Styling */
 .modal-content{
   color: #212121;
@@ -176,7 +168,6 @@ main article img
 .italicize{
   font-style: italic;
 }
-
 #modalLink{
   color: black;
   -webkit-transition: color .3s;
@@ -196,15 +187,6 @@ footer{
   margin: 1em auto;
   text-align: center;
 }
-
-/*.back{
-  font-size: 1.5em;
-  color: #FFFFFF;
-  margin-left: 1em;
-}*/
-/*div label{
-  color: black;
-}*/
 /*Image distances*/
 .right{
   left: 4em;
@@ -212,9 +194,7 @@ footer{
 .left{
   left: -4em;
 }
-
 /*Underline CSS code from: http://bradsknutson.com/blog/css-sliding-underline/*/
-
 nav ul li a::after
 {
   content: '';
@@ -223,7 +203,6 @@ nav ul li a::after
   width: 0px;
   transition: width .5s ease, background-color .5s ease;
 }
-
 nav ul li a:hover::after
 {
   width: 100%;
