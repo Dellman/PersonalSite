@@ -62,16 +62,6 @@
                 <!-- Cards for projects -->
                 <div class="card-container">
 
-                    <!-- <div class="card">
-                        <a class="card-link" href="projects/SwedenFullPHP/" target="_blank">
-                        <div class="card-front">
-                            <img src="images/SlideshowCard.png" alt="Sweden Slideshow Page">
-                            <div class="card-text"><h4>Sweden JavaScript Slideshow</h4>
-                            <p>I did this project for fun to explore some nuances of JavaScript and experiment with various jQuery plugins.</p></div>
-                        </div>
-                        </a>
-                    </div> -->
-
                     <div class="card">
                         <a class="card-link" href="projects/ClientProject1/" target="_blank">
                         <div class="card-front">
