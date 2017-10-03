@@ -27,7 +27,7 @@
                 <p>My favorite things to do are read, hang out with friends, play games (board, video, and card), listen to music, and bake. I also enjoy light traveling and reading and learning about new technologies. Recently I have been learning React and exploring ES6.</p>
             </section>
 
-            <img class="right" src="images/AboutPicture.jpg" alt="Picture of me">
+            <img class="right" src="images/AboutPicture.jpg" alt="Picture of me" id="PicOfMe">
 
         </article>
 
@@ -40,7 +40,6 @@
 
                 <p>In addition to studying at RIT, I spent a summer studying at George Mason University (Washington, D.C.) and a semester at Uppsala University (Uppsala, Sweden).</p>
             </section>
-            <!-- <img class="mobilePic right" src="images/RITLogo.png" alt=""> -->
         </article>
 
         <article id="work">
@@ -51,7 +50,7 @@
 
                 <p>Another job was during the summer of 2015 at Smart Media, a company that focuses on political advertisements. While there, I helped them improve the accuracy of their competitive software. I also helped ensure their clients paid the appropriate rates by doing market research and comparative analysis of database information.</p>
             </section>
-            <!-- <img src="" class="right" alt="Work Image"> -->
+            <!-- <img src="images/" class="right" alt="Work Image"> -->
         </article>
 
         <article id="projects">

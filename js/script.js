@@ -80,16 +80,16 @@ $(document).ready(function($) {
         if ($img.hasClass("right") || $img.hasClass('left')) {
             animateImages($img);
         }
-        var $docWidth  = $(document).width();
-        // If there is a "hidden" mobile picture, animate that as well
-        if ($docWidth < 1100){
-            // animateImages($img2);
-            var $pic = $(document.getElementById("RIT"));
-            $pic.removeClass('left');
-            $pic.addClass('right');
-            $pic.appendTo('#education');
-        }
     }
+
+    var $docWidth  = $(document).width();
+    // Make RIT logo on right side for tablets
+    if ($docWidth < 1100){
+      var $pic = $(document.getElementById("RIT"));
+      $pic.removeClass('left');
+      $pic.addClass('right');
+      $pic.appendTo('#education');
+   }
 
     function animateImages(img){
         img.animate({
