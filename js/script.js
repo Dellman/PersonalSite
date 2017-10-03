@@ -72,6 +72,8 @@ $(document).ready(function($) {
         this.blur();
     });
 
+   animateImages($(document.getElementById('PicOfMe')));
+
     function getArticleImages(hashID){
 
         var id = hashID.slice(1);
