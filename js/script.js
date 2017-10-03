@@ -86,6 +86,9 @@ $(document).ready(function($) {
 
     var $docWidth  = $(document).width();
     // Make RIT logo on right side for tablets
+    if ($docWidth > 800){
+      animateImages($(document.getElementById('PicOfMe')));
+   }
     if ($docWidth < 1100){
       var $pic = $(document.getElementById("RIT"));
       $pic.removeClass('left');
