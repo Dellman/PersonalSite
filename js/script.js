@@ -82,11 +82,19 @@ $(document).ready(function($) {
       animateImages($(document.getElementById('PicOfMe')));
    }
    // Make RIT logo on right side for tablets
-   if ($docWidth < 1100){
+   $(window).on('resize', function(){
       var $pic = $(document.getElementById("RIT"));
-      $pic.addClass('right');
-      $pic.appendTo('#education');
-   }
+      if ($(window).width() < 1100){
+         // $pic.removeClass('left')
+         // $pic.addClass('right');
+         // $pic.toggleClass('right');
+         // $pic.appendTo('#education');
+      }
+      else{
+
+      }
+   });
+
 
    function animateImages(img){
      img.animate({
