@@ -30,10 +30,6 @@ $(document).ready(function($) {
             var theID = aArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page
             var divHeight = $(theID).height(); // get the height of the div in question
-            // Add in the nav height and remove 5px from the required div offset
-            // if (windowPos + $navHeight + 30 >= divPos ) {
-            //     getArticle(theID);
-            // }
             if (windowPos + $navHeight + $heightModifier >= divPos && windowPos + $navHeight < (divPos + divHeight)) {
                 $("a[href='" + theID + "']").addClass("active");
                 if ($heightModifier == 0) {
@@ -72,37 +68,33 @@ $(document).ready(function($) {
         this.blur();
     });
 
-   animateImages($(document.getElementById('PicOfMe')));
+   function getArticleImages(hashID){
+     var id = hashID.slice(1);
+     var $articleEle = $(document.getElementById(id));
+     var $img = $($articleEle.find('img')[0]);
+     if ($img.hasClass("right") || $img.hasClass('left')) {
+         animateImages($img);
+     }
+   }
 
-    function getArticleImages(hashID){
-
-        var id = hashID.slice(1);
-        var $articleEle = $(document.getElementById(id));
-        var $img = $($articleEle.find('img')[0]);
-        if ($img.hasClass("right") || $img.hasClass('left')) {
-            animateImages($img);
-        }
-    }
-
-    var $docWidth  = $(document).width();
-    // Make RIT logo on right side for tablets
-    if ($docWidth > 800){
+   var $docWidth  = $(document).width();
+   if ($docWidth > 800){
       animateImages($(document.getElementById('PicOfMe')));
    }
-    if ($docWidth < 1100){
+   // Make RIT logo on right side for tablets
+   if ($docWidth < 1100){
       var $pic = $(document.getElementById("RIT"));
-      $pic.removeClass('left');
       $pic.addClass('right');
       $pic.appendTo('#education');
    }
 
-    function animateImages(img){
-        img.animate({
-            left: "0px",
-            opacity: 1,
-            filter: 'alpha(opacity=50)'
-        }, 750);
-    }
+   function animateImages(img){
+     img.animate({
+         left: "0px",
+         opacity: 1,
+         filter: 'alpha(opacity=50)'
+     }, 750);
+   }
 
     //Contact Form https://codepen.io/jaycbrf/pen/iBszr/
     $('#contact_form').bootstrapValidator({
