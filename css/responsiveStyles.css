@@ -77,6 +77,10 @@
     .card-text{
         margin: .5em auto;
     }
+    #lend-and-lease img{
+        max-width: 300px !important;
+        max-height: 200px !important;
+    }
     nav ul li{
       padding: .25em;
     }
@@ -101,13 +105,16 @@
     .card-front img{
       max-width: 300px !important;
     }
+    #lend-and-lease img{
+        max-width: 280px !important;
+    }
 }
 @media only screen and (max-width: 380px){
     main article img{
       max-height: 250px;
       max-width: 250px;
     }
-    .card-front img{
+    .card-front img, #lend-and-lease img{
       max-width: 270px !important;
       max-height: 300px;
     }
