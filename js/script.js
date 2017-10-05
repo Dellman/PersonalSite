@@ -81,17 +81,24 @@ $(document).ready(function($) {
    if ($docWidth > 800){
       animateImages($(document.getElementById('PicOfMe')));
    }
+   var $pic = $(document.getElementById("RIT"));
+   if ($(window).width() < 1100){
+      $pic.removeClass('left');
+      $pic.addClass('right');
+      $pic.appendTo('#education');
+   }
    // Make RIT logo on right side for tablets
    $(window).on('resize', function(){
       var $pic = $(document.getElementById("RIT"));
       if ($(window).width() < 1100){
-         // $pic.removeClass('left')
-         // $pic.addClass('right');
-         // $pic.toggleClass('right');
-         // $pic.appendTo('#education');
+         $pic.removeClass('left');
+         $pic.addClass('right');
+         $pic.appendTo('#education');
       }
       else{
-
+         $pic.removeClass('right');
+         $pic.addClass('left');
+         $pic.appendTo('#education');
       }
    });
 
