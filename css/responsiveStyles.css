@@ -18,8 +18,8 @@
       flex-wrap: nowrap;
     }
     main article img{
-      max-width: 400px;
-      max-height: 400px;
+      max-width: 450px;
+      max-height: 450px;
       margin: 0 auto;
     }
     main article section p, main article section h2{
@@ -32,11 +32,6 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 960px){
-    main article img{
-      max-width: 350px;
-      max-height: 350px;
-      margin: 0 auto;
-    }
     main article section p, main article section h2{
       margin: 0;
       margin-bottom: .25em;
@@ -68,7 +63,7 @@
       max-width: 300px;
     }
     .card-front img{
-      max-width: 350px !important;
+      max-width: 350px;
       max-height: 350px;
     }
     .card{
@@ -103,18 +98,18 @@
 }
 @media only screen and (max-width: 425px){
     .card-front img{
-      max-width: 300px !important;
+      max-width: 300px;
     }
     #lend-and-lease img{
         max-width: 280px !important;
     }
 }
 @media only screen and (max-width: 380px){
-    main article img{
+    main article img, .card-front img{
       max-height: 250px;
       max-width: 250px;
     }
-    .card-front img, #lend-and-lease img{
+    #lend-and-lease img{
       max-width: 270px !important;
       max-height: 300px;
     }
