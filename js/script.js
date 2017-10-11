@@ -98,7 +98,7 @@ $(document).ready(function($) {
       else{
          $pic.removeClass('right');
          $pic.addClass('left');
-         $pic.appendTo('#education');
+         $pic.prependTo('#education');
       }
    });
 
