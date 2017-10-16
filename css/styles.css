@@ -126,6 +126,7 @@ main article img
   position: relative;
   display: inline-block;
   margin: .75em;
+  margin-left: 0;
 }
 .card-front img{
   opacity: 1;
