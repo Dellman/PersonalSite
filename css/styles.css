@@ -34,6 +34,9 @@ nav ul li a{
 a{
   color: #212121;
 }
+p a{
+  color: #337ab7;
+}
 nav ul li a:focus{
   text-decoration: none;
 }
@@ -174,14 +177,12 @@ main article img
   font-style: italic;
 }
 #modalLink{
-  color: black;
   -webkit-transition: color .3s;
   -o-transition: color .3s;
   transition: color .3s;
 }
 #modalLink:hover{
   cursor: pointer;
-  /*color: black;*/
   color: #23527c;
   text-decoration: none;
 }
