@@ -2,58 +2,7 @@ html{
   width: 100%;
   overflow-x: hidden;
 }
-/* Nav Styling */
-nav
-{
-  background-color: #a5a5a5;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  font-size: 1.25em;
-}
-nav ul
-{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 0;
-  padding: 0;
-}
-nav ul li{
-  padding: .5em;
-  list-style: none;
-  font-size: 1.1em;
-}
-nav ul li a{
-  color: #212121;
-  text-decoration: none;
-  font-size: 1em;
-}
-a{
-  color: #212121;
-}
-p a{
-  color: #337ab7;
-}
-nav ul li a:focus{
-  text-decoration: none;
-}
-nav ul li a:hover{
-  text-decoration: none;
-}
-.active, nav ul li a:hover{
-  color:  #23527c;
-}
 /* Content Styling */
-body{
-  display: block;
-  background-color: #FFFFFF;
-  font-family: 'Raleway', sans-serif, "Verdana", "Georgia", "Arial";
-  color: #000000;
-}
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Playfair Display', serif;
-}
 article{
   padding: 0 10% 4.7em;
 }
@@ -114,6 +63,7 @@ main article img
   margin: 0 auto;
   padding: 0;
   display: inline-block;
+  color: black;
 }
 .card{
   position: relative;
