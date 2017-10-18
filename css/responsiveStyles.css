@@ -97,21 +97,17 @@
     }
 }
 @media only screen and (max-width: 425px){
-    .card-front img{
-      max-width: 300px;
-    }
-    #lend-and-lease img{
-        max-width: 280px !important;
+    .card-front img., #lend-and-lease img{
+      max-width: 300px !important;
     }
 }
 @media only screen and (max-width: 380px){
-    main article img, .card-front img{
-      max-height: 250px;
-      max-width: 250px;
+    main article img, .card-front img, #lend-and-lease img{
+      max-height: 250px !important;
+      max-width: 250px !important;
     }
     #lend-and-lease img{
-      max-width: 270px !important;
-      max-height: 300px;
+      max-height: 300px !important;
     }
     nav ul li{
         padding: .15em;

@@ -3,7 +3,6 @@
 ?>
 
     <nav id="navBar">
-        <!-- <img id="icon" src="images/favicon.png"> -->
          <ul id="navList">
              <img id="icon" src="images/favicon.png">
             <ul> <li><a href="#about">About Me</a></li>
