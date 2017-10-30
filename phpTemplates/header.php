@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="icon" href="images/favicon.png" type="image/png">
