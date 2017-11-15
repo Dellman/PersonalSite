@@ -46,7 +46,7 @@ body{
   display: block;
   background-color: #FFFFFF;
   font-family: 'Raleway', sans-serif, "Verdana", "Georgia", "Arial";
-  color: #000000;
+  color: #222;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Playfair Display', serif;
@@ -111,7 +111,7 @@ main article img
   margin: 0 auto;
   padding: 0;
   display: inline-block;
-  color: black;
+  color: #222;
 }
 .card{
   position: relative;
@@ -133,7 +133,7 @@ main article img
 .card:hover .card-text{
   filter: alpha(opacity=100); /* For IE8 and earlier */
   opacity: 1;
-  color: black;
+  color: #222;
 }
 .card-text{
   opacity: 0;
