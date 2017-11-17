@@ -84,7 +84,7 @@
                 <div class="card-container">
 
                     <div class="card">
-                        <a class="card-link" href="projects/ClientProject1/" target="_blank">
+                        <a class="card-link" href="projects/clientproject1/" target="_blank">
                         <div class="card-front">
                             <img src="images/Project1Card.jpg" alt="Client Project 1">
                             <div class="card-text"><h4>Dynamic JavaScript Project</h4>
