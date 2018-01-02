@@ -213,9 +213,6 @@ nav ul li a:hover::after
     }
 }
 @media only screen and (max-width: 1100px){
-    nav{
-      position: fixed;
-    }
     main article section p, main article img{
       margin: 0;
     }
@@ -323,5 +320,11 @@ nav ul li a:hover::after
     main h1{
         padding: 0 .25em;
         margin-bottom: .25em;
+    }
+    nav{
+      position: initial;
+    }
+    main{
+      margin-top: 0;
     }
 }
