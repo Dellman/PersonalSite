@@ -26,7 +26,7 @@
 
     <nav id="navBar">
          <ul id="navList">
-             <img id="icon" src="images/favicon.png">
+             <img id="icon" src="images/favicon.png" alt="Logo">
             <ul> <li><a href="#about">About Me</a></li>
              <li><a href="#education">Education</a></li>
              <li><a href="#work">Work</a></li>
@@ -48,7 +48,7 @@
                 <p>My favorite things to do are read, hang out with friends, play games (board, video, and card), listen to music, and bake. I also enjoy light traveling and reading and learning about new technologies. Recently I have been learning Vue and exploring ES6.</p>
             </section>
 
-            <img class="right" src="images/AboutPicture.jpg" alt="Picture of me" id="PicOfMe">
+            <img class="right" src="images/AboutPicture.jpg" alt="Picture of Daniel Ellman" id="PicOfMe">
 
         </article>
 
