@@ -58,6 +58,7 @@ main
 {
   margin-top: 5em;
   font-size: 1.2em;
+  overflow-x: hidden;
 }
 main h1{
   margin-bottom: 1em;
@@ -326,5 +327,8 @@ nav ul li a:hover::after
     }
     main{
       margin-top: 0;
+    }
+    #contact{
+      padding: 0;
     }
 }
