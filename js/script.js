@@ -102,7 +102,6 @@ $(document).ready(function($) {
       }
    });
 
-
    function animateImages(img){
      img.animate({
          left: "0px",

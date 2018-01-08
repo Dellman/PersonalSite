@@ -98,10 +98,6 @@ main article img
   opacity: 0;
   position: relative;
 }
-.mobilePic{
-  display: none;
-  margin: 0 auto;
-}
 /*Cards*/
 .card-container{
   display: inline-block;

@@ -243,7 +243,6 @@
 
                 <!-- Bootstrap Form Validator -->
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js">
-
                 </script>
 
                 <!-- Scroll To Plugin for jQuery -->
