@@ -71,7 +71,7 @@
         "role":"offense",
         "picture":"images/reaper.png",
         "link":"https://playoverwatch.com/en-us/heroes/reaper"},
-    
+
         {"name": "Reinhardt",
         "difficulty": "easy",
         "role":"tank",
@@ -95,13 +95,13 @@
         "role":"support",
         "picture":"images/symmetra.png",
         "link":"https://playoverwatch.com/en-us/heroes/symmetra/"},
-    
+
         {"name": "Torbjörn",
         "difficulty": "medium",
         "role":"defense",
         "picture":"images/torbjorn.png",
         "link":"https://playoverwatch.com/en-us/heroes/torbjorn/"},
-    
+
         {"name": "Tracer",
         "difficulty": "medium",
         "role":"offense",
@@ -113,12 +113,12 @@
         "role":"defense",
         "picture":"images/widowmaker.png",
         "link":"https://playoverwatch.com/en-us/heroes/widowmaker/"},
-    
+
         {"name": "Winston",
         "difficulty": "medium",
         "role":"tank",
         "picture":"images/winston.png",
-        "link":"https://playoverwatch.com/en-us/heroesw/inston/"},
+        "link":"https://playoverwatch.com/en-us/heroes/winston/"},
 
         {"name": "Zarya",
         "difficulty": "hard",
