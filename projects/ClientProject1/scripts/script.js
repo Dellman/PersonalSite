@@ -21,7 +21,7 @@ function browserCheck(){
 
 // JSON ('exceptional' part)
 var xmlhttp = new XMLHttpRequest();
-var url = "scripts/heroes2.json";
+var url = "scripts/heroes.json";
 
 xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
@@ -329,12 +329,6 @@ function useStoredData(){
         // if it uses local storage, but the first name cannot be found,
         // prompt the user until they put in a value
         else{
-            // while (firstName.length < 2 || firstName == null || firstName.value == ""){
-            //     firstName = prompt("Please enter your first name", "");
-            //     if( firstName.length < 2 || firstName == null || firstName.value == ""){
-            //         window.alert("That is not an acceptable value.");
-            //     }
-            // }
             while( firstName.length == 0){
                 firstName = prompt("Please enter your first name", "");
                 if(firstName == null){
