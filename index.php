@@ -52,28 +52,6 @@
 
         </article>
 
-        <article id="education">
-            <img class="left" id="RIT" src="images/RITLogo.png" alt="RIT Logo">
-            <section>
-                <h2>Education</h2>
-
-                <p>I started college in the Fall of 2013. I began with core university requirements and Game Design and Development courses. My sophomore year included Political Science and Web Development courses. During my junior year, I realized Web Development was for me, and created a custom major within the College of Independent Studies, focusing on Web Development.</p>
-
-                <p>In addition to studying at RIT, I spent a summer studying at George Mason University (Washington, D.C.) and a semester at Uppsala University (Uppsala, Sweden).</p>
-            </section>
-        </article>
-
-        <article id="work">
-            <section>
-                <h2>Work</h2>
-
-                <p>During the summer of 2016, I was a Web Developer Intern at Smart Meetings in Sausalito, CA. While there, I focused on improving their website by redesigning the website, optimizing the website, and improving SEO. I also helped manage their development team.</p>
-
-                <p>Another job was during the summer of 2015 at Smart Media, a company that focuses on political advertisements. While there, I helped them improve the accuracy of their competitive software. I also helped ensure their clients paid the appropriate rates by doing market research and comparative analysis of database information.</p>
-            </section>
-            <img src="images/SmartMeetings.jpg" class="right" alt="SmartMeetingsLogo">
-        </article>
-
         <article id="projects">
 
             <section>
@@ -121,6 +99,17 @@
                 </div><!-- Card section closing div -->
 
 
+            </section>
+        </article>
+
+        <article id="education">
+            <img class="left" id="RIT" src="images/RITLogo.png" alt="RIT Logo">
+            <section>
+                <h2>Education</h2>
+
+                <p>I started college in the Fall of 2013. I began with core university requirements and Game Design and Development courses. My sophomore year included Political Science and Web Development courses. During my junior year, I realized Web Development was for me, and created a custom major within the College of Independent Studies, focusing on Web Development.</p>
+
+                <p>In addition to studying at RIT, I spent a summer studying at George Mason University (Washington, D.C.) and a semester at Uppsala University (Uppsala, Sweden).</p>
             </section>
         </article>
 
