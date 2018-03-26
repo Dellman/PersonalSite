@@ -27,11 +27,11 @@
     <nav id="navBar">
          <ul id="navList">
              <img id="icon" src="images/favicon.png" alt="Logo">
-            <ul> <li><a href="#about">About Me</a></li>
-             <li><a href="#education">Education</a></li>
-             <li><a href="#work">Work</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#contact">Contact</a></li></ul>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>            
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li></ul>
         </ul>
     </nav>
 
