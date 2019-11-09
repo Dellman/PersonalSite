@@ -29,7 +29,7 @@
              <img id="icon" src="images/favicon.png" alt="Logo">
             <ul>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>            
+                <li><a href="#work">Work</a></li>            
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li></ul>
         </ul>
@@ -41,46 +41,49 @@
             <section>
                 <h2>About Me</h2>
 
-                <p>Hello, my name is Daniel Ellman and I am from Columbus, OH. I am a recent graduate of the Rochester Institute of Technology. My major focused on Web Development and Online Marketing. If you have any interest in my experience, <a target="blank" href="uploads/DanielEllmanResume.pdf"> take a look at my resume</a>.</p>
+                <p>Hello, my name is Daniel Ellman and I am from Columbus, OH. I attended the Rochester Institute of Technology and studied Web Development and Online Marketing. If you have any interest in my experience, <a target="blank" href="uploads/DanielEllmanResume.pdf"> take a look at my resume</a>.</p>
 
-                <p>My focus is on Front End Development, which means I focus on what the user sees, and how they interact with the website. I know HTML5, CSS3, jQuery, and JavaScript.</p>
+                <p>My focus is on Front End Development, which means I focus on what the user sees, and how they interact with the website. I know HTML5, CSS3, JavaScript, and React. I have also made and published apps using React Native</p>
 
-                <p>My favorite things to do are read, hang out with friends, play games (board, video, and card), listen to music, and bake. I also enjoy light traveling and reading and learning about new technologies. Recently I have been learning Vue and exploring ES6.</p>
+                <p>When I'm not playing with a new technology or working on a side project, you can find me hanging out with friends, playing games (board, tabletop, video, and card), listening to music, reading, or writing.</p>
             </section>
 
             <img class="right" src="images/AboutPicture.jpg" alt="Picture of Daniel Ellman" id="PicOfMe">
 
         </article>
 
-        <article id="projects">
+        <article id="work">
 
             <section>
-                <h2 id="project-bottom">Projects</h2>
+                <h2 id="work-bottom">Work</h2>
 
-                <!-- Cards for projects -->
+                <!-- Cards for work -->
                 <div class="card-container">
 
-                    <div class="card">
-                        <a class="card-link" href="projects/clientproject1/" target="_blank">
+                <div class="card">
+                    <a class="card-link" href="https://www.teamrwb.org/mobile-app/" target="_blank">
                         <div class="card-front">
-                            <img src="images/Project1Card.jpg" alt="Client Project 1">
-                            <div class="card-text"><h4>Dynamic JavaScript Project</h4>
-                            <p class="text-depth">This is a project from senior year of college which required students to create a website using plain JavaScript. This project was based off of one of my favorite games, Overwatch, and allows the user to select their ideal character. In addition to plain JavaScript, this project uses local storage, cookies, and JSON.</p>
-                            <p class="text-brief">This project focuses on using plain JavaScript, cookies, local storage, and JSON to create a dynamic site.</p></div>
+                            <img src="images/RWB.jpg" alt="Team RWB Mobile App Page">
+                            <div class="card-text">
+                                <h4>Team RWB</h4>
+                                <p class="text-depth">Non-profit Team Red, White, and Blue needed a mobile app to replace and enhance the mobile version of their website. The app allows veterans and civilians to find local events and meet up at events created by community leaders, promoting a strong body and mind. My primary role for this project was fixing bugs and improving performance issues with additional features to improve the user's experiences.</p>
+                                <p class="text-brief">A react native app for the non-profit Team RWB. The purpose is to help veterans find other veterans and civilians and enable them to meet up for events to keep up their physical and mental health. My primary focus was bug fixes, performance boosts, and UX improvements.</p>
+                            </div>
                         </div>
                         </a>
                     </div>
 
-                    <div class="card" id="lend-and-lease">
-                        <a class="card-link" href="https://github.com/Dellman/Lend-and-Lease-Clone.git" target="_blank">
-                            <div class="card-front">
-                                <img style="max-width: 600px; height:250px;" src="images/LendAndLeaseCard.png" alt="Lend and Lease Homepage">
-                                <div class="card-text"><h3>Lend and Lease</h3>
-                                <p class="text-depth">This was a group project during my study abroad in Sweden. With a team of three, we created a website that allows people to put up items for other people in the neighborhood to borrow and lease items. While we did not implement all of our ideal functions, we got a majority of the primary functions. We used Node.Js with Passport for sessions and authentication, and Express to connect to our MySQL database.
-                                </p>
-                                <p class="text-brief">This was a group project that worked towards allowing users to lend items to people in their neighborhood. We used Node.Js, Passport, Express, and MySQL.</p></div>
+                    <div class="card">
+                    <a class="card-link" href="https://medium.com/ethex-market/introducing-the-ethex-trade-wallet-79e47ba61153" target="_blank">
+                        <div class="card-front">
+                            <img src="images/Ethex.png" alt="Team RWB Mobile App Page">
+                            <div class="card-text" id="ethex-text">
+                                <h4>Ethex</h4>
+                                <p class="text-depth">Ethex is a decentralized exchange on the Ethereum blockchain. It has a focus on "useful token" (tokens that have functionality made and can do something). During my time at Ethex, I created the mobile app from scratch using react native. It includes the ability for users to create a wallet and send, receive, and make buy and sell others on the Ethex smart contract. I also worked on the web app and working on a trading bot that was never released.</p>
+                                <p class="text-brief">A react native app for the decentralized exchange Ethex. I created the app from scratch and created the UI, implemented the UX, and added the ability to interact with the Ethex smart contract.</p>
                             </div>
-                            </a>
+                        </div>
+                        </a>
                     </div>
 
                     <div class="card">
@@ -89,7 +92,7 @@
                             <img src="images/StrategicInterestsCard.png" alt="Stragic Interests Page">
                             <div class="card-text">
                                 <h4>Strategic Interests</h4>
-                                <p class="text-depth">This website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
+                                <p class="text-depth">Strategic Interests is a Healthcare and Information company. The website was made with three other students using the Divi WordPress theme. We gave it a modern layout and added a variety of new features. My task was being the team leader and focusing on the new functionality. The design has been slightly altered since our creation, but most of the functionality is still the same.</p>
                                 <p class="text-brief">This was a group project made using the Divi WordPress theme. We modernized and optimized the website. Most of our changes are still on their current website.</p>
                             </div>
                         </div>

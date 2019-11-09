@@ -85,7 +85,7 @@ main article section p
 {
   margin: 0;
 }
-#project-bottom{
+#work-bottom{
   margin-bottom: 1em;
 }
 /* Image Styling */
@@ -100,7 +100,9 @@ main article img
 }
 /*Cards*/
 .card-container{
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 100%;
   height: 100%;
 }
@@ -112,9 +114,10 @@ main article img
 }
 .card{
   position: relative;
-  display: inline-block;
+  align-items: center;
   margin: .75em;
   margin-left: 0;
+  display: inline-table; /* Prevents the card object from extending past its children and making the hover range larger */
 }
 .card-front img{
   opacity: 1;
@@ -227,7 +230,7 @@ nav ul li a:hover::after
     main article section p, main article section h2{
       margin: .5em 0;
     }
-    #project-bottom{
+    #work-bottom{
         margin-bottom: .5em;
     }
 }
@@ -243,19 +246,8 @@ nav ul li a:hover::after
     nav ul li a{
       font-size: .8em;
     }
-    #project-bottom{
+    #work-bottom{
         margin-bottom: 0;
-    }
-}
-@media only screen and (max-width: 700px){
-    #lend-and-lease img{
-        max-width: 400px !important;
-    }
-    #lend-and-lease .text-brief{
-        display: inline;
-    }
-    #lend-and-lease .text-depth{
-        display: none;
     }
 }
 @media only screen and (max-width: 500px){
@@ -272,10 +264,6 @@ nav ul li a:hover::after
     }
     .card-text{
         margin: .5em auto;
-    }
-    #lend-and-lease img{
-        max-width: 300px !important;
-        max-height: 200px !important;
     }
     nav ul li{
       padding: .25em;
@@ -297,19 +285,13 @@ nav ul li a:hover::after
         display: inline;
     }
 }
-@media only screen and (max-width: 425px){
-    .card-front img., #lend-and-lease img{
-      max-width: 300px !important;
-    }
-}
+
 @media only screen and (max-width: 380px){
-    main article img, .card-front img, #lend-and-lease img{
+    main article img, .card-front img{
       max-height: 250px !important;
       max-width: 250px !important;
     }
-    #lend-and-lease img{
-      max-height: 300px !important;
-    }
+
     nav ul li{
         padding: .15em;
     }

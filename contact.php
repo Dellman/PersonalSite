@@ -3,7 +3,7 @@
   // Subject of email sent to you.
   $subject = 'My Website Form';
   // Your email address. This is where the form information will be sent.
-  $emailadd = 'dtellman95@gmail.com';
+  $emailadd = 'ellmantdaniel@gmail.com';
   // From email address. This is who the form information will be sent from.
   $email_from = isset($_POST['email']);
   // Where to redirect after form is processed.
